@@ -35,7 +35,7 @@ def get_formatted_date(data):
             from_info = " ".join(sender)
         else:
             from_info, from_bill = "", ""
-            formatted_data.append(f"""\
+        formatted_data.append(f"""\
 {date} {description}
 {from_info} {from_bill} -> {recipient}
 {operations_amount}""")
