@@ -1,6 +1,8 @@
 from utils import reading_file, get_filtered_date, get_last_values, get_formatted_date
+
+
 def main():
-    FILTER_EMPTY_FROM = False
+    FILTER_EMPTY_FROM = True
     COUNT_LAST_VALUES = 5
 
     data = reading_file()
